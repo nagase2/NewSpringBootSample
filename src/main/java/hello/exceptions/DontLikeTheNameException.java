@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package hello;
+package hello.exceptions;
 
 // tag::code[]
-class UserNotFoundException extends RuntimeException {
+public class DontLikeTheNameException extends RuntimeException {
 
-	public UserNotFoundException(String userId) {
-		super("ユーザが見つかりませんでした '" + userId + "'.");
+	public DontLikeTheNameException(String userId) {
+		super("could not find user '" + userId + "'.");
 	}
 }
 // end::code[]
