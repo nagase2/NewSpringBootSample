@@ -24,4 +24,13 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
+    
+    @RequestMapping("/test")
+    public Greeting test() {
+    	
+    	System.out.println("testです");
+    	
+    	return new Greeting();
+        //return new Greeting();
+    }
 }
