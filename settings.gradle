@@ -1,1 +1,1 @@
-include 'rest-sample', 'second-sample'
+include 'rest-sample', 'second-sample','third-sample'

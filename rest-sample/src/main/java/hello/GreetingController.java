@@ -29,8 +29,14 @@ public class GreetingController {
     public Greeting test() {
     	
     	System.out.println("testです");
+    	Greeting gre = new Greeting();
     	
-    	return new Greeting();
+    	Good g = new Good();
+    	gre.setMessage(g.getValue1());
+    	
+    	
+    	
+    	return gre ;
         //return new Greeting();
     }
 }

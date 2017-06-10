@@ -4,8 +4,15 @@ public class Greeting {
 
     private  long id=1;
     private  String content="rest";
+    private String message;
 
-    public Greeting(long id, String content) {
+    public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public Greeting(long id, String content) {
         this.id = id;
         this.content = content;
     }
@@ -13,7 +20,13 @@ public class Greeting {
     	
     }
 
-    public long getId() {
+    public void setId(long id) {
+		this.id = id;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public long getId() {
         return id;
     }
 
