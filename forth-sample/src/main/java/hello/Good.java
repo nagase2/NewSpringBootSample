@@ -1,7 +1,7 @@
 package hello;
 
 public class Good {
-	String value1="third";
+	String value1="forth";
 	
 	public String getValue1() {
 		return value1;
