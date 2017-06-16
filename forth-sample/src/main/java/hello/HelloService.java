@@ -9,7 +9,7 @@ public class HelloService {
 		// TODO Auto-generated constructor stub
 	}
 	String getMessage(){
-		return "forth message2";
+		return "forth message0002";
 	}
 
 }
