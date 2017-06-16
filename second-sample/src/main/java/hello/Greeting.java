@@ -24,6 +24,6 @@ public class Greeting {
     	return "abc";
     }
     public String testMethod2(){
-    	return "abc";
+    	return "111";
     }
 }
