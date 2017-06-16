@@ -12,14 +12,19 @@ import hello.HelloService;
 @RestController
 public class ExperimentRestController {
 
-		@Autowired
-		private HelloService hService;
-		
-		  @RequestMapping("/simple")
-		    public String simple(){
-			  
-			  
-			  return "simple1234";
-			  
-		    }
+	@Autowired
+	private HelloService hService;
+
+	@RequestMapping("/simple")
+	public String simple() {
+
+		return "simple1234";
+
+	}
+	@RequestMapping("/simple2")
+	public String simple2() {
+
+		return "simple1234";
+
+	}
 }
