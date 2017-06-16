@@ -9,7 +9,25 @@ public class GreetingWithTime {
     private  String content;
     private  String ldate;
     private  Date dat;
+    
+    public void setId(long id) {
+        this.id = id;
+    }
 
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setLdate(String ldate) {
+        this.ldate = ldate;
+    }
+
+    public void setDat(Date dat) {
+        this.dat = dat;
+    }
+
+    public GreetingWithTime(){}
+    
     public GreetingWithTime(long id, String content,String ldate,Date dat) {
         this.id = id;
         this.content = content;

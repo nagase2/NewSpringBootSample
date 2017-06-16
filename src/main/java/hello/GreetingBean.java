@@ -2,12 +2,12 @@ package hello;
 
 import java.time.LocalDateTime;
 
-public class Greeting {
+public class GreetingBean {
 
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content) {
+    public GreetingBean(long id, String content) {
         this.id = id;
         this.content = content;
     }
