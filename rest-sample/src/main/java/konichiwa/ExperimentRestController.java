@@ -14,16 +14,14 @@ public class ExperimentRestController {
 
 
     
-		@Autowired
-		private HelloService hService;
-		
-		  @RequestMapping("/simple")
-		    public String simple(){
-			  
-			  
-			  return "simple123456";
-			  
-		    }
+	@Autowired
+	private HelloService hService;
 
-    
+	@RequestMapping("/simple")
+	public String simple() {
+
+		return "simple123456";
+
+	}
+
 }
