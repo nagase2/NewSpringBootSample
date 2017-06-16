@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import hello.Greeting;
 import hello.HelloService;
 
-@RequestMapping("/exp")
+@RequestMapping("/exp2")
 @RestController
 public class ExperimentRestController {
 
@@ -19,7 +19,7 @@ public class ExperimentRestController {
 		    public String simple(){
 			  
 			  
-			  return "simple123";
+			  return "simple1234";
 			  
 		    }
 }
