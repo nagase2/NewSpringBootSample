@@ -21,6 +21,6 @@ public class Greeting {
         return content;
     }
     public String testMethod(){
-    	return "aaaaa";
+    	return "ab";
     }
 }
