@@ -19,7 +19,7 @@ public class ExperimentRestController {
 		    public String simple(){
 			  
 			  
-			  return "simple";
+			  return "simple12";
 			  
 		    }
 }
