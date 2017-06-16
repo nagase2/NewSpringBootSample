@@ -8,18 +8,17 @@ import org.springframework.web.bind.annotation.RestController;
 import hello.Greeting;
 import hello.HelloService;
 
-@RequestMapping("/exp")
+@RequestMapping("/exp2")
 @RestController
 public class ExperimentRestController {
 
-		@Autowired
-		private HelloService hService;
-		
-		  @RequestMapping("/simple")
-		    public String simple(){
-			  
-			  
-			  return "simple123456";
-			  
-		    }
+	@Autowired
+	private HelloService hService;
+
+	@RequestMapping("/simple")
+	public String simple() {
+
+		return "simple123456";
+
+	}
 }
