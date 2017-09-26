@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import hello.Greeting;
-import hello.HelloService;
+import hello.SampleHelloService;
 
 @RequestMapping("/exp")
 @RestController
 public class ExperimentRestController {
 
 		@Autowired
-		private HelloService hService;
+		private SampleHelloService hService;
 		
 		  @RequestMapping("/simple")
 		    public String simple(){

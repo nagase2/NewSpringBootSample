@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
 
 	@Autowired
-	private HelloService hService;
+	private SampleHelloService hService;
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
@@ -29,18 +29,5 @@ public class GreetingController {
                             String.format(template, name));
     }
     
-    @RequestMapping("/test")
-    public Greeting test() {
-    	
-    	System.out.println("testです");
-    	Greeting gre = new Greeting();
-    	
-    	Good g = new Good();
-    	gre.setMessage(g.getValue1());
-    	gre.setContent(hService.getMessage());
-    	
-    	
-    	return gre ;
-        //return new Greeting();
-    }
+
 }
